@@ -513,7 +513,7 @@ test('scraper can quote tweet with image and video', async () => {
     path.join(__dirname, '../test-assets/test-video.mp4'),
   );
 
-//   // Prepare media data array with both image and video
+  // Prepare media data array with both image and video
   const mediaData = [
     { data: imageBuffer, mediaType: 'image/jpeg' },
     { data: videoBuffer, mediaType: 'video/mp4' },
